@@ -65,7 +65,7 @@ para.innerText = "This is a Para Tag...."
 let div = document.getElementsByTagName("div")[1]
 console.log(div);
 function imgCall(){
-    div.innerHTML = "<img  src='Events in JS.png' alt= />"
+    div.innerHTML = "<img  src='Events_in_JS.png' alt= />"
     div.style.opacity = 0
 }
 function imgCall1(){
