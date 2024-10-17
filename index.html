@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>08-10-2024 - Assignment</title>
+  </head>
+  <body>
+    <!-- 1.create  a HTML elements and add events to them
+2.Using Dom change the content and styling of the elements
+3.Take a image and create 10 buttons and change the opacity of the image from 0 to 10 using these buttons -->
+
+    <h2>1.create a HTML elements and add events to them</h2>
+    <p>Click the button below to see changes</p>
+    <button
+      onclick="console.log('Button is clicked....');alert('Button is activated')"
+    >
+      Click Me
+    </button>
+
+    <p>Click the below button twice to see changes</p>
+    <button
+      ondblclick="console.log('This is a double click button');alert('You had been click me twice...');"
+    >
+      Click_Me_Twice
+    </button>
+    <p>Hover on the aqua box to get alert msg....</p>
+
+    <div
+      onmouseover="alert('you are inside the div box');"
+      style="height: 100px; width: 100px; background-color: aqua"
+    >
+      This is div
+    </div>
+
+    <h2>2.Using Dom change the content and styling of the elements</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo corporis
+      ratione debitis rerum! Dolorum adipisci eum, ad voluptatibus corporis
+      temporibus.
+    </p>
+
+    <h2>
+      3.Take a image and create 10 buttons and change the opacity of the image
+      from 0 to 10 using these buttons
+    </h2>
+    <div >
+    <img src="Events in JS.png" alt="" />
+</div>
+    <button onclick="imgCall()" id="1">Opacity - 0</button>
+    <button onclick="imgCall1()" id="2">Opacity - 0.1</button>
+    <button onclick="imgCall2()" id="3">Opacity - 0.2</button>
+    <button onclick="imgCall3()" id="4">Opacity - 0.3</button>
+    <button onclick="imgCall4()" id="5">Opacity - 0.4</button>
+    <button onclick="imgCall5()" id="6">Opacity - 0.5</button>
+    <button onclick="imgCall6()" id="7">Opacity - 0.6</button>
+    <button onclick="imgCall7()" id="8">Opacity - 0.7</button>
+    <button onclick="imgCall8()" id="9">Opacity - 0.8</button>
+    <button onclick="imgCall9()" id="10">Opacity - 0.9</button>
+    <button onclick="imgCall10()" id="11">Opacity - 1</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
